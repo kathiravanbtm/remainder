@@ -28,8 +28,7 @@ jobs:
       - name: Install Zola
         uses: taiki-e/install-action@v2
         with:
-          tool: zola@0.19.2 # You can update this to the latest zola version
-          
+          tool: zola@0.22.1          
       - name: Build site with Zola
         run: zola build
         
