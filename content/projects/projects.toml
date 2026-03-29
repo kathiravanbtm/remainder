@@ -1,0 +1,41 @@
+[[collection]]
+type = "card"
+title = "Remainder"
+link = "https://kathiravanbtm.is-a.dev/remainder"
+demo_link = "https://kathiravanbtm.is-a.dev/remainder"
+contribute_link = "https://github.com/kathiravanbtm/remainder"
+contribute_text = "Contribute"
+content = "A personal notes site where I document what I learn, what I try, and what I break. Built with Zola and the Serene theme."
+tags = ["zola", "serene", "notes"]
+
+[[collection]]
+type = "card"
+title = "1forall"
+link = ""
+demo_link = ""
+contribute_link = "https://codeberg.org/kathiravan/1forall"
+contribute_text = "Contribute"
+content = "A small web app for the exam aspirants and applicants who can convert the documents to format the exam portal requires in one place"
+tags = ["web", "productivity"]
+
+[[collection]]
+type = "card"
+title = "Food Bucket"
+link = ""
+demo_link = ""
+contribute_link = "https://codeberg.org/kathiravan/FoodBucket"
+contribute_text = "Contribute"
+content = "A app we made during the FossHack 2026. it is app which bridges the gap between the food reviewers and the users"
+tags = ["dsa", "interview"]
+
+
+
+[[collection]]
+type = "card"
+title = "Brainrot"
+link = ""
+demo_link= ""
+contribute_link = "https://codeberg.org/kathiravan/BrainRotTracker"
+contribute_text = "contribute"
+content = "A app to keep track of you brain power which is shown in the mobile wallpaper and update regularly"
+tags = ["mobile app", "productivity"]

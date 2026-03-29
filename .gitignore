@@ -1,0 +1,12 @@
+# Zola build output
+public/
+_site_check/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

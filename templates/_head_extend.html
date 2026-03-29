@@ -1,0 +1,39 @@
+<style>
+  .prose .collection.card .project-actions-inline,
+  .prose .collection.card-simple .project-actions-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+    margin-left: 0.4rem;
+  }
+
+  .prose .collection.card .project-action,
+  .prose .collection.card-simple .project-action {
+    text-decoration: none;
+    border: 1px solid var(--text-decoration-color);
+    border-radius: 999px;
+    padding: 0.18rem 0.62rem;
+    font-size: 0.76rem;
+    line-height: 1.35;
+    color: var(--text-color);
+    transition: border-color 0.18s ease, color 0.18s ease, background-color 0.18s ease;
+  }
+
+  .prose .collection.card .project-action:hover,
+  .prose .collection.card-simple .project-action:hover {
+    opacity: 1;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--primary-pale-color);
+  }
+
+  @media (max-width: 768px) {
+    .prose .collection.card .project-actions-inline,
+    .prose .collection.card-simple .project-actions-inline {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0.35rem;
+    }
+  }
+</style>
